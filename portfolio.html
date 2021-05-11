@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>portfolio</title>
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap-grid.min.css">
+</head>
+<body>
+	<header>
+		<div class="logo">
+			<a href="index.html">
+			<span class="logo">joseph</span>
+		</a>
+		</div>
+		<div class="mobile-btn">
+			<i class="fas fa-bars fa-3x"></i>
+		</div>
+		<nav class="menu">
+			<a href="index.html">home</a>
+			<a href="about.html">about</a>
+			<a href="portfolio.html">portfolio</a>
+			<a href="contact.html">contact</a>
+		</nav>
+		<div class="icon-wrap">
+		<span class="icon-bg">
+			<i class="fab fa-facebook"></i>
+		</span>
+		<span class="icon-bg">
+			<i class="fab fa-instagram"></i>
+		</span>
+		<span class="icon-bg">
+			<i class="fab fa-twitter"></i>
+		</span>
+		</div>
+	</header>
+	<div class="banner">
+		<div class="banner-intro">
+			<div>
+				<h1 class="port">portfolio</h1>
+			</div>
+		</div>
+	</div>
+	<h1 class="touch">project</h1>
+	<div class="pix-wrap">
+		<div data-aos="flip-down" data-aos-easing="ease-out-cubic"
+				  data-aos-duration="2000">
+		  <img src="images/screen1.png" style="height: 300px;" width="400px">
+		</div>
+		<div data-aos="flip-down" data-aos-easing="ease-out-cubic"
+	   data-aos-duration="2000">
+		  <img src="images/screen2.png" style="height: 300px;" width="400px">
+		</div>
+		<div data-aos="flip-down" data-aos-easing="ease-out-cubic"
+	   data-aos-duration="2000">
+		  <img src="images/screen3.png" style="height: 300px;" width="400px">
+		</div>
+	 </div>
+	
+	<footer>
+		<div class="footer-intro">
+			<h2>Let’s discuss for a project</h2>
+			<span>Hire me, am open for a Job</span>
+			<div>
+				<span class="btn btn-outline-light m-5 py-3 px-5">lets connect</span>
+			</div>
+		</div>
+		<div class="footer-menu">
+			<nav>
+				<a href="">home</a>
+				<a href="">about</a>
+				<a href="">portfolio</a>
+				<a href="">contact</a>
+			</nav>
+			<div class="icon-wrap">
+			  <span class="icon-bg">
+				  <i class="fab fa-facebook"></i>
+			  </span>
+			  <span class="icon-bg">
+				  <i class="fab fa-instagram"></i>
+			  </span>
+			  <span class="icon-bg">
+				  <i class="fab fa-twitter"></i>
+			  </span>
+			  </div>
+		</div>
+		<div class="p-3" style="text-align: center; color: white;">
+			<p>Copyright ©2020 All rights reserved | made with <i class="fas fa-heart" style="color: red;"></i> by Joseph</p>
+		</div>
+	</footer>
+	<script>
+		const btn = document.getElementById(".mobile-btn");
+		document.querySelector(".mobile-btn").addEventListener("click", () => document.querySelector(".menu").classList.toggle("show"));
+	</script>
+	
+</body>
+</html>
