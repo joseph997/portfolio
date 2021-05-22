@@ -349,4 +349,7 @@ footer {
     justify-content: center;
     padding: 0;
   }
+  .pix-wrap img {
+    object-fit: cover;
+  }
 }
